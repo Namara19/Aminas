@@ -1,0 +1,18 @@
+{
+  "name": "Aminas: Light & Shadow",
+  "short_name": "Aminas",
+  "description": "Restore a ruined island sanctuary, befriend Aminas, and uncover the mystery of World Resonance.",
+  "id": "./",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#12102e",
+  "theme_color": "#12102e",
+  "categories": ["games"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

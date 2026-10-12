@@ -1,0 +1,8 @@
+# Netlify / Cloudflare Pages: always revalidate the service worker and manifest so updates ship.
+/sw.js
+  Cache-Control: no-cache
+/index.html
+  Cache-Control: no-cache
+/manifest.webmanifest
+  Content-Type: application/manifest+json
+  Cache-Control: no-cache
